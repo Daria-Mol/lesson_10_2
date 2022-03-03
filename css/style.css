@@ -1,0 +1,39 @@
+ @import "null.css"; 
+ 
+ .wrapper{
+	 max-width: 100%;
+	 overflow: hidden;
+ }
+	[class*=__container]{
+	max-width: 1000px;
+	margin: 0px auto;
+	 }
+
+	.contact-us{
+		border:5px solid red;
+		padding: 10px;
+	}
+	.contact-us__subtitle {
+		font-size: 30px;
+		text-decoration: underline;
+		font-weight: 700;
+		text-align: center;
+	}
+	.contact-us a{
+		color: red;
+	}
+	.contact-us__title {
+		font-size: 27px;
+		color: rgb(90, 0, 0);
+		font-weight: 700;
+	}
+	.contact-us__text {
+		font-size: 20px;
+	}
+	.contact-us__link {
+		font-size: 20px;
+		font-weight: 700;
+		text-decoration: underline;
+		text-transform: uppercase;
+	}
+
